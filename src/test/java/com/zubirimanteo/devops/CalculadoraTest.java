@@ -11,7 +11,7 @@ class CalculadoraTest {
 
         int resultado = calc.suma(2, 3);
 
-        assertEquals(6, resultado, "La suma 2 + 3 debería ser 5");
+        assertEquals(5, resultado, "La suma 2 + 3 debería ser 5");
     }
         @Test
     void restaTest() {

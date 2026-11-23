@@ -11,9 +11,10 @@ class CalculadoraTest {
 
         int resultado = calc.suma(2, 3);
 
-        assertEquals(5, resultado, "La suma 2 + 3 debería ser 5");
+        assertEquals(6, resultado, "La suma 2 + 3 debería ser 5");
     }
-        @Test
+
+    @Test
     void restaTest() {
         Calculadora calc = new Calculadora();
         int resultado = calc.resta(10, 4);
@@ -26,7 +27,8 @@ class CalculadoraTest {
         int resultado = calc.multiplicacion(5, 5);
         assertEquals(25, resultado, "La multiplicación 5 * 5 debería ser 25");
     }
-        @Test
+
+    @Test
     void sumaStringsTest() {
         Calculadora calc = new Calculadora();
         String resultado = calc.sumaStrings("Hola ", "mundo");
